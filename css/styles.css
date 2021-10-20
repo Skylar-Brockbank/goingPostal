@@ -1,0 +1,30 @@
+.postCard {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 1em;
+  Border: .1em solid rgba(0, 0, 0, 0.055);
+}
+
+.postCard > div {
+  box-sizing: border-box;
+  Align-self: center;
+
+}
+
+#background {
+  background-image: url("../img/hawaii.jpg");
+  background-size: 100%;
+  display: grid;
+}
+
+#background > div {
+  background-color: rgba(255, 255, 255, 0.836);
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+  border-right: solid rgb(201, 201, 201);
+}
+#invisibility {
+  display: none;
+}
